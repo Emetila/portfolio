@@ -1,0 +1,84 @@
+.container {
+    padding: var(--app-block-padding);
+    background-color: #0C1A1A;
+}
+
+.containerbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    row-gap: 40px;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.containerbox div {
+    width: 250px;
+}
+
+.container h1 {
+    font-family: "Spectral", sans-serif;
+    font-size: 32px;
+    color: #DAC5A7;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.figmabox, .framerbox, .canvabox, .vsbox, .formbox {
+    background-color: #C53678;
+    padding-left: 10px;
+    display: flex;
+    width: 300px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 16px;
+}
+
+.figma {
+    width: 32px;
+    height: 32px;
+    color: #DAC5A7;
+}
+
+.containerbox h3 {
+    font-size: 24px;
+}
+
+.figmabox h3 {
+    color: #DAC5A7;
+}
+
+.framerbox {
+    background-color: #BFA181;
+}
+
+.framer, .canva, .vscode, .form {
+    width: 40px;
+    height: 40px;
+    color: #C53678;
+}
+
+.canvabox {
+    background-color: #178582;
+    color: #BFA181;
+}
+
+.canva {
+    color: #2121D9;
+}
+
+.vsbox {
+    background-color: #2121D9;
+    color: #BFA181;
+}
+
+.vscode {
+    color: #2186d9;
+}
+
+.formbox {
+    background-color: #BFA181;
+}

@@ -3,6 +3,7 @@ import { LandingPageNavigation } from "../../app/component/Header/LandingPageNav
 import { HomeBody } from "../../app/component/HomeContainer";
 import { LogoSection } from "../../app/component/LogoSection";
 import { OfferSection } from "../../app/component/Offer";
+import { ToolSection } from "../../app/component/Tools";
 
 export const HomePage = () => {
     return (
@@ -11,6 +12,7 @@ export const HomePage = () => {
             <HomeBody />
             <LogoSection />
             <OfferSection />
+            <ToolSection />
         </div>
     )
 }
