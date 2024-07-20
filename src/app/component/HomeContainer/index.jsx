@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import styled from 'styled-components';
 import {ReactComponent as Image} from '../../asset/Images/img1.svg';
 import style from './style.module.css'
 

@@ -6,13 +6,13 @@ export const HeaderNavigation = (props) => {
         <nav className={style.navbar}>
             <ul lassName={props.className}>
                 <li>
-                <a href="/about">About</a>
+                <a href="#about">About</a>
                 </li>
                 <li>
-                <a href="/portfolio">Portfolio</a>
+                <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="/contact">Contact</a>
+                    <a href="#resume">Resume</a>
                 </li>
             </ul>
         </nav>

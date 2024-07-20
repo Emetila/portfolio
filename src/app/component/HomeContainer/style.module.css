@@ -35,3 +35,13 @@
     width: 1279px;
     height: 1000px;
 } */
+
+@media (max-width:810px) {
+    .bodybox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    } 
+}

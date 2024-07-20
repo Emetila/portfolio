@@ -1,0 +1,25 @@
+.container {
+    padding:  var(--app-block-padding);
+    background-color: #0C1A1A;
+}
+
+.offers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;    
+}
+
+.name {
+    height: 220px;
+    padding: 20px;
+    background-color: #178582;
+}
+
+.number, .title, .description {
+    color: #DAC5A7;
+    line-height: 25px;
+}
+
+.title {
+    text-transform: uppercase;
+}
