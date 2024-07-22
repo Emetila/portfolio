@@ -1,10 +1,14 @@
 import React from "react";
 import style from './style.module.css';
 import { Offers } from "./offers";
+import { motion } from "framer-motion";
 
 export const OfferSection = () => {
     return (
-        <div className={style.container}>
+        <motion.div className={style.container}
+        initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}>
             <div>
                 <div className={style.offers} key={Offers.id}>
                     {Offers.map((Offers) => (
@@ -20,6 +24,6 @@ export const OfferSection = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }

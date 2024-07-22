@@ -1,0 +1,64 @@
+.container {
+    background-color: #0C1A1A;
+    padding: var(--app-block-padding);
+    overflow: hidden;
+}
+
+.headerbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrowicon {
+    color: #DAC5A7;
+    background-color: #178582;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.linkbox a {
+    color: #178582;
+}
+
+.linkbox a:hover {
+    color: #DAC5A7;
+}
+
+.worksimages {
+    width: 400px;
+    height: 400px;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 60px; */
+    justify-content: space-between;
+}
+
+.wrap {
+    background-color: #178582;
+    position: relative;
+}
+
+.name {
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    gap: 40px;
+    position: relative;
+    margin-top: -25%;
+}
+
+.title, .description {
+    font-family: "Merriweather", sans-serif;
+    font-size: 18px;
+    color: #DAC5A7;
+}

@@ -1,11 +1,18 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { AboutPage } from '../../page/About';
 import { HomePage } from '../../page/Home';
+import { PortfolioPage } from '../../page/Portfolio';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     <HomePage />
-    </div>
+    <BrowserRouter>
+      <Routes>
+          <Route index element={<HomePage/>} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
+          </Routes>
+          </BrowserRouter>
   );
 }
 

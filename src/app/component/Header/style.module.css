@@ -14,6 +14,7 @@
     font-family: "Spectral", sans-serif;
     font-size: 32px;
     width: 300px;
+    color: #6ACFC7;
 }
 
 .headerbox h1:hover {
@@ -40,4 +41,63 @@
 .menu ul li a:hover {
     color: #BFA181;
     font-size: 18px;
+}
+
+.nav-item.active, .menu-li.active {
+    color: #BFA181;
+}
+
+.menu li.active {
+    color: #BFA181;
+    text-decoration: underline;
+}
+.menu-icon {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        fill: #6ACFC7;
+        width: 32px;
+        height: 60px;
+    }
+
+    .menu {
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        right: 0px;
+        padding-left: 20px;
+        top: 80px;
+        background-color: #0C1A1A;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .menu ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .menu ul li:hover {
+        color: #BFA181;
+    }
+
+    .menu ul.mobile {
+        display: block;
+    }
+    
+    .menu ul li {
+    padding: 10px 0;
+}
+
+.menu li.hidden-mobile {
+    display: none;
+}
 }

@@ -28,3 +28,9 @@
   border: 2px solid #BFA181;
   color: #BFA181;
 }
+
+h1 {
+  font-size: 32px;
+  font-family: "Spectral", sans-serif;
+  color: #BFA181;
+}
