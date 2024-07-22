@@ -3,6 +3,11 @@ import Work2 from '../../asset/Images/malicha.svg';
 import Work3 from '../../asset/Images/buywihease.svg';
 import Work4 from '../../asset/Images/famebirds.svg';
 import Work5 from '../../asset/Images/gocipe.svg';
+import Work6 from '../../asset/Images/cleanconnect.svg';
+import Work7 from '../../asset/Images/sjfashion.png';
+import Work8 from '../../asset/Images/assw.svg';
+import Work9 from '../../asset/Images/paws.svg';
+import Work10 from '../../asset/Images/getcrypto.svg';
 
 export const Works = [
     {
@@ -15,6 +20,11 @@ export const Works = [
         title: "Famebirds",
         description: "Product Designer",
     },
+    {
+        Image: Work7,
+        title: "SJ Fashion",
+        description: "Product Designer & Developer",
+    }, 
     {
         Image: Work2,
         title: "Malicha",
@@ -32,33 +42,25 @@ export const Works = [
         description: "Product Designer",
     },
     {
-        Image: Work5,
+        Image: Work6,
         title: "CleanConnect",
         description: "Developer",
     },
     {
-        Image: Work5,
+        Image: Work9,
         title: "Paws & Purrs",
         description: "Developer",
     },
+    
     {
-        Image: Work5,
-        title: "SJ Fashion",
-        description: "Product Designer & Developer",
-    }, 
-    {
-        Image: Work5,
+        Image: Work10,
         title: "getCrypto",
         description: "Developer",
     },
     {
-        Image: Work5,
+        Image: Work8,
         title: "ASSW",
         description: "Developer",
     },
-    {
-        Image: Work5,
-        title: "Ehealth4everyone",
-        description: "Prdouct Design Intern",
-    }
+    
 ]

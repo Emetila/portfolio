@@ -1,23 +1,25 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import {ReactComponent as Image} from '../../asset/Images/img1.svg';
+import { ReactComponent as Image } from '../../asset/Images/img1.svg';
+import { ReactComponent as Image2} from '../../asset/Images/mobileimage.svg';
 import style from './style.module.css'
 
 export const HomeBody = () => {
   return (<div className={style.bdy}>
-      <motion.h1 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 10 }}>
-        <div className={style.bodybox}>
+    <motion.h1 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 10 }}>
+      <div className={style.bodybox}>
         <Image className={style.image} />
+        <Image2 className={style.image2} />
         <div className={style.titlebox}>
           <h1>Web, UI/UX Designer & Developer</h1>
-          <p>I'm delighted you're here. Dive into my love for Product, UI/UX,  Web Design and development as 
-            you explore my work. Please feel free to reach out if you have any inquiries or suggestions for a 
+          <p>I'm delighted you're here. Dive into my love for Product, UI/UX,  Web Design and development as
+            you explore my work. Please feel free to reach out if you have any inquiries or suggestions for a
             collaborative project. I'm grateful you took the time to stop by.</p>
         </div>
-        </div>
-      </motion.h1>
+      </div>
+    </motion.h1>
     {/* </HomeContainer> */}
-    </div>
+  </div>
   );
 };
 

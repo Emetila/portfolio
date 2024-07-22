@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import style from './style.module.css';
-import { Link, NavLink } from "react-router-dom";
+import './LandingPage.css';
+import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { CustomButton } from "../Button";
 
@@ -22,9 +22,9 @@ export const HeaderNavigation = (props) => {
     };
 
     return (
-        <nav className={style.navbar}>
+        <nav className="navbar">
             <div className={`navbar-links ${mobileMenuOpen ? 'open' : ''}`}>
-            <ul lassName={props.className}>
+            <ul className={props.className}>
                 <li>
                 <NavLink to="/about" 
                 onClick={() => handleNavClick('/about')} className={activeNav === '/about' ? 'nav-item active' : 'nav-item'}>About</NavLink>
@@ -36,6 +36,9 @@ export const HeaderNavigation = (props) => {
                 <li>
                 <NavLink to="/resume" 
                 onClick={() => handleNavClick('/resume')} className={activeNav === '/resume' ? 'nav-item active' : 'nav-item'}>Resume</NavLink>
+                </li>
+                <li className="button2">
+                <CustomButton onClick= {() => {}}>Let's Talk</CustomButton>
                 </li>
             </ul>
             </div>

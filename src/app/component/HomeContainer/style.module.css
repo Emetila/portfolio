@@ -31,17 +31,54 @@
     font-weight: 400;
 }
 
+ .image2 {
+    display: none;
+}
+
 /* .image {
     width: 1279px;
     height: 1000px;
 } */
 
-@media (max-width:810px) {
+ @media (max-width: 768px) {
     .bodybox {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         gap: 20px;
     } 
+
+
+    .bdy {
+        margin: 0;
+        padding: var(--app-block-padding);
+    }
+
+   .image {
+        display: none;
+    }
+
+    .bodybox .image2 {
+        display: block;
+        max-width: 400px;
+        height: 400px;
+    }
+
+    .titlebox {
+        max-width: 400px;
+    }
+    
+    .titlebox h1 {
+        font-size: 38px;
+        max-width: 400px;
+        text-align: center;
+    }
+    
+    .titlebox p {
+        font-size: 18px;
+        color: #DAC5A7;
+        line-height: 40px;
+        font-weight: 400;
+    }
 }

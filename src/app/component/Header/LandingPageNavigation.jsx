@@ -1,28 +1,26 @@
 import React, {useState} from "react";
-import style from './style.module.css';
 import { HeaderNavigation } from "./HeaderNavigation";
 import { CustomButton } from "../Button";
 import { Link } from "react-router-dom";
 import { IoMdMenu } from "react-icons/io";
+import './LandingPage.css'
 
 export const LandingPageNavigation = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [showMenu, setMenu] = React.useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+    const toggleMenu = () => {
+        setMenu(showMenu === false)
+    }
     return (
-        <header className={style.headerbox}>
+        <header className="headerbox">
             <div>
-                <Link to="/"><h1>Shulammite</h1></Link>
+                <Link className="logo" to="/">Shulammite</Link>
             </div>
-            <IoMdMenu className={style['menu-icon']} onClick={toggleMenu} />
-            <div className={style.menu}>
-            {isOpen && (
-                <HeaderNavigation />
-            )}
+            <IoMdMenu className="menu-icon" onClick={toggleMenu} />
+            <div className='menu'>
+                <HeaderNavigation className={showMenu ? 'mobile' : ''}/>
             </div>
-            <CustomButton onClick= {() => {}}>Let's Talk</CustomButton>
+            <CustomButton className="button" onClick= {() => {}}>Let's Talk</CustomButton>
         </header>
     )
 }
