@@ -9,7 +9,7 @@ export const PortfolioBody = () => {
         whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}>
             <div className={style.titlebox}>
-                <h1>Welcome to my porfolio</h1>
+                <h1>Welcome to my portfolio</h1>
                 <p>Creating beautiful and functional designs is my passion. Whether it's product design, web design or frontend 
                     development, I am committed to providing top-notch service to all my clients. From conceptualization 
                     to execution, I ensure that each design is tailored to your needs and exceeds your expectations. 

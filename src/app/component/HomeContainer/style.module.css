@@ -61,17 +61,17 @@
 
     .bodybox .image2 {
         display: block;
-        max-width: 400px;
-        height: 400px;
+        max-width: 300px;
+        height: 300px;
     }
 
     .titlebox {
-        max-width: 400px;
+        max-width: 300px;
     }
     
     .titlebox h1 {
         font-size: 38px;
-        max-width: 400px;
+        max-width: 300px;
         text-align: center;
     }
     

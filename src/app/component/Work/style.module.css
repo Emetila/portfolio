@@ -81,4 +81,10 @@
         justify-content: center;
       transition: transform 0.3s;
     }
+
+    .title, .description {
+        font-family: "Merriweather", sans-serif;
+        font-size: 14px;
+        color: #DAC5A7;
+    }
 }
