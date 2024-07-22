@@ -82,3 +82,51 @@
 .formbox {
     background-color: #BFA181;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: var(--app-block-padding);
+    }
+    
+    .containerbox {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+        grid-gap: 15px; 
+    }
+
+    .containerbox div {
+        width: 200px;
+    }
+
+    .container h1 {
+        font-family: "Spectral", sans-serif;
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+    
+    .figmabox, .framerbox, .canvabox, .vsbox, .formbox {
+        padding-left: 0px;
+        max-width: 180px;
+        height: 80px;
+    }
+    
+    .figma  {
+        width: 32px;
+        height: 32px;
+        color: #DAC5A7;
+    }
+    
+    .containerbox h3 {
+        font-size: 18px;
+    }
+ 
+    .framer, .canva {
+        width: 32px;
+        height: 32px;
+    }
+
+    .vscode, .form {
+        width: 28px;
+        height: 28px;
+    }
+}

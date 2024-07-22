@@ -8,6 +8,8 @@
     color: #6ACFC7;
     border-bottom: 1px solid #BFA181;
     height: 80px;
+    position: fixed;
+   width: 1100px;
 }
 
 .logo {
@@ -58,6 +60,10 @@
 }
 
 @media (max-width: 768px) {
+    .headerbox {
+        max-width: 400px;
+    }
+
     .menu-icon {
         display: block;
         fill: #6ACFC7;

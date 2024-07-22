@@ -64,3 +64,21 @@
     font-size: 14px;
 }
 
+@media (max-width: 768px) {
+    .container {
+        padding: 90px var(--app-block-padding);
+    }
+
+    .titlebox h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .works {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      transition: transform 0.3s;
+    }
+}

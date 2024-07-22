@@ -24,3 +24,35 @@
 .logo10 {
     width: 200px;
 }
+
+@media (max-width: 768px) {
+    .body {
+        padding: 10px 0;
+        height: 80px;
+    }
+
+    .logo11, .logo8, .logo4, .logo2, .logo1 {
+        width: 60px;
+        height:60px;
+    }
+
+    .logo10 {
+        width: 40px;
+    }
+    
+    .logo3, .logo5, .logo6, .logo7{
+        width: 80px;
+        height: 80px;
+    }
+    
+    
+    .logo9, .logo12 {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .logo10 {
+        width: 90px;
+        height: 90px;
+    }
+}
