@@ -30,16 +30,18 @@
     }
 
     .offers {
-        grid-template-columns: repeat(2, 1fr);  
-        grid-gap: 15px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .offerbox {
-        width: 200px;
+        width: 300px;
     }
     
     .name {
-        height: 300px;
+        height: 200px;
         padding: 20px;
         background-color: #178582;
     }
