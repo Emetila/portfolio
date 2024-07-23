@@ -106,7 +106,7 @@
     
     .figmabox, .framerbox, .canvabox, .vsbox, .formbox {
         padding-left: 0px;
-        max-width: 150px;
+        width: 150px;
         height: 70px;
     }
     
