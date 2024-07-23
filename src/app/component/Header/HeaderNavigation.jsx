@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import './LandingPage.css';
 import { NavLink } from "react-router-dom";
 import { CustomButton } from "../Button";
+import { useNavigate } from "react-router-dom";
 
 export const HeaderNavigation = (props) => {
     const [activeNav, setActiveNav] = useState('/');
@@ -16,6 +17,11 @@ export const HeaderNavigation = (props) => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const toggleMobileMenu = () => {
         setMobileMenuOpen(!mobileMenuOpen);
+    };
+
+    const navigate = useNavigate();
+    const goToContact = () => {
+        navigate('/contact');
     };
 
     return (
@@ -35,7 +41,7 @@ export const HeaderNavigation = (props) => {
                 onClick={() => handleNavClick('/resume')} className={activeNav === '/resume' ? 'nav-item active' : 'nav-item'}>Resume</NavLink>
                 </li>
                 <li className="button2">
-                <CustomButton onClick= {() => {}}>Let's Talk</CustomButton>
+                <CustomButton onClick= {goToContact}>Let's Talk</CustomButton>
                 </li>
             </ul>
             </div>
