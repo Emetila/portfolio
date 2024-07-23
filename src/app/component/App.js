@@ -3,6 +3,7 @@ import { AboutPage } from '../../page/About';
 import { HomePage } from '../../page/Home';
 import { PortfolioPage } from '../../page/Portfolio';
 import './App.css';
+import { ContactPage } from '../../page/Contact';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <Route index element={<HomePage/>} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/contact" element={<ContactPage />} />
           </Routes>
           </BrowserRouter>
   );

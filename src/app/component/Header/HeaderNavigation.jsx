@@ -1,12 +1,9 @@
 import React, {useState} from "react";
 import './LandingPage.css';
 import { NavLink } from "react-router-dom";
-import { useLocation } from "react-router-dom";
 import { CustomButton } from "../Button";
 
 export const HeaderNavigation = (props) => {
-    const location = useLocation();
-
     const [activeNav, setActiveNav] = useState('/');
 
     const handleNavClick = (path) => {

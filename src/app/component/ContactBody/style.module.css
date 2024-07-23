@@ -1,0 +1,121 @@
+.container {
+    background-color: #0C1A1A;
+    padding: var(--app-block-padding);
+}
+
+.containerbox {
+    margin-top: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.headingbox p{
+    color: #BFA181;
+    text-transform: uppercase;
+    font-family: "Merriweather", sans-serif;
+    font-weight: lighter;
+}
+
+.headingbox h1 {
+    font-weight: 400;
+    font-family: "Spectral", sans-serif;
+}
+
+.formcontainer {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 30px 50px;
+    background-color: #dac5a70e;
+}
+
+.formbox {
+    width: 500px;
+}
+
+.formfield {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formfield input, .formfield textarea {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    background-color: #178582;
+    border: none;
+    text-shadow: none;
+}
+
+.formfield textarea {
+    height: 70px;
+}
+
+.formfield ::placeholder {
+    color: #DAC5A7;
+    font-family: "Merriweather", sans-serif;
+    font-size: 14px;
+}
+
+.button {
+    height: 40px;
+    background-color: #BFA181;
+    width: 520px;
+    border: none;
+    font-family: "Spectral", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0C1A1A;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #c99e71;
+    text-decoration: underline;
+}
+
+.formcontainerbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.socialcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.socialbox {
+    background-color: #178582;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 13.3vw;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #BFA181;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.socialbox a {
+    text-decoration: none;
+    color: #BFA181;
+    font-family: "Spectral", sans-serif;
+    font-size: 16px;
+}
+
+.socialbox .icon {
+    width: 20px;
+    height: 20px;
+}
