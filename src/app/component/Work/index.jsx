@@ -6,8 +6,8 @@ import { motion } from 'framer-motion';
 export const PortfolioBody = () => {
     return (
         <section className={style.container} 
-        whileHover={{ scale: 1.05 }}
-      whileTap={{ scale: 0.95 }}>
+        whilehover={{ scale: 1.05 }}
+      whiletap={{ scale: 0.95 }}>
             <div className={style.titlebox}>
                 <h1>Welcome to my portfolio</h1>
                 <p>Creating beautiful and functional designs is my passion. Whether it's product design, web design or frontend 

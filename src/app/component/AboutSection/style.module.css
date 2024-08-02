@@ -1,0 +1,26 @@
+.containbox {
+    background-color: #0C1A1A;
+    padding: 100px var(--app-block-padding);
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+}
+
+.containerbody {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.container p {
+    color: #DAC5A7;
+}

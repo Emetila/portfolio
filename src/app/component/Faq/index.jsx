@@ -19,6 +19,21 @@ export const FAQ = () => {
             answer: 'My process typically involves a discovery call to discuss the client needs and goals, followed by research and strategy development. From there, I move into the design and development phase, where I create wireframes, prototypes, and design concepts before finalizing the website. I then perform quality assurance and testing before launching the website.',
             open: false,
         },
+        {
+            question: 'Do you have experience with responsive design?',
+            answer: 'Yes, I have experience with responsive design. Ensuring that websites and applications look great and function well on all devices is a priority for me. I use flexible grid layouts, media queries, and other responsive design techniques to achieve this.',
+            open: false,
+        },
+        {
+            question: 'How do you ensure the quality of your work?',
+            answer: 'Quality is a top priority for me. I follow best practices and industry standards in both design and development. I also conduct thorough testing and seek feedback at various stages of the project to ensure the final product meets or exceeds expectations.',
+            open: false,
+        },
+        {
+            question: 'What tools do you use for design and development?',
+            answer: 'I use a variety of tools depending on the project requirements. For design, I primarily use Figma and Framer. For development, I use HTML, CSS, JavaScript, and frameworks like React. Additionally, I utilize tools like Git for version control and collaboration, and WordPress and Wix',
+            open: false,
+        },
     ]);
 
     const toggleFAQ = (index) => {

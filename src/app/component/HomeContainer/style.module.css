@@ -1,7 +1,7 @@
 .bdy {
     background-color: #0C1A1A; 
     margin: 0;
-    padding: 0 var(--app-block-padding);
+    padding: var(--app-block-padding);
     overflow: hidden;
 }
 
@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 70px;
 }
 
 .titlebox {
@@ -35,10 +35,10 @@
     display: none;
 }
 
-/* .image {
-    width: 1279px;
-    height: 1000px;
-} */
+.image {
+    width: 1000px;
+    height: 500px;
+}
 
  @media (max-width: 768px) {
     .bodybox {
