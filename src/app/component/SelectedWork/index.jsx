@@ -18,7 +18,7 @@ export const SelectedWorkSection = () => {
             <div>
                 <div className={style.works} key={FewWorks.id}>
                     {FewWorks.map((Works) => (
-                        <div className={style.workbox}>
+                        <div key={Works.id} className={style.workbox}>
                             <div>
                                 <img className={style.worksimages} src={Works.Image} alt={Works.Image} />
 

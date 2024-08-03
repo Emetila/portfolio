@@ -18,9 +18,168 @@
 .containerbody {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    /* width: 500px; */
 }
 
-.container p {
+/* .socialsection {
+    width: 300px;
+} */
+
+.titlebox {
+    width: 500px;
+    height: 400px;
+}
+
+.titlebox h1 {
+    font-family: "Spectral", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.titlebox p {
+    font-family: "Merriweather", sans-serif;
+    font-size: 14px;
+    font-weight: 100;
     color: #DAC5A7;
+    line-height: 30px;
+    width: 500px;
+    margin-top: -40px;
+}
+
+.applybtn {
+    color: #178582;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+.applybtn:hover {
+    background-color: #DAC5A7;
+    border: none;
+    height: 56px;
+}
+
+.applybtn div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.arrow {
+    color: #DAC5A7;
+}
+
+.arrow:hover {
+    background-color: #178582;
+    border-radius: 100px;
+    padding: 10px;
+    color: #DAC5A7;
+}
+
+.aboutbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: center;
+}
+
+.aboutboxcontent {
+    width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 30px 50px;
+    background-color: #dac5a70e;
+    margin-bottom: 30px;
+}
+
+.aboutboxcontent .name {
+    color: #DAC5A7;
+    font-family: "Merriweather", sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.aboutboxcontent h2 {
+    color: #DAC5A7;
+    font-family: "Spectral",sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.aboutboxcontent .body {
+    color: #DAC5A7;
+    font-family: "Merriweather", sans-serif;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+.aboutboxcontent .imag2 {
+    width: 450px;
+    height: 300px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .image {
+        width: 300px;
+        height: 400px;
+    }
+    
+    .titlebox {
+        width: 300px;
+        height: 400px;
+    }
+    
+    .titlebox h1 {
+        font-family: "Spectral", sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 60px;
+    }
+    
+    .titlebox p {
+        font-size: 14px;
+        line-height: 30px;
+        width: 300px;
+        margin-top: -20px;
+    }
+    
+    .applybtn {
+        margin-top: 30px;
+    }
+
+    .aboutbox {
+        width: 300px;
+    }
+    
+    .aboutboxcontent {
+        width: 230px;
+        padding: 30px 30px;
+        margin-bottom: 30px;
+    }
+    
+    .aboutboxcontent .name {
+        font-size: 10px;
+    }
+    
+    .aboutboxcontent h2 {
+        font-size: 28px;
+    }
+    
+    .aboutboxcontent .body {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    .aboutboxcontent .imag2 {
+        width: 250px;
+        height: 300px;
+    }
 }

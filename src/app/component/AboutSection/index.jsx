@@ -24,7 +24,7 @@ export const AboutSectio = () => {
                 <div className={style.containerbody}>
                     <div ref={(el) => (sectionRefs.current[0] = el)}>
 
-                        <div>
+                        <div className={style.titlebox}>
                             <h1>Shulammite Ughojo</h1>
                             <p>Delivering Premium Product Design, Web Design and Development Services to Boost Your Online
                                 Presence.</p>
@@ -36,8 +36,8 @@ export const AboutSectio = () => {
                         </div>
                     </div>
 
-                    <div ref={(el) => (sectionRefs.current[1] = el)}>
-                        <div>
+                    <div className={style.aboutbox} ref={(el) => (sectionRefs.current[1] = el)}>
+                        <div className={style.aboutboxcontent}>
                             <p className={style.name}>Shulammite Ughojo</p>
                             <h2>Your Partner in Bringing Your Design Vision to Life</h2>
                             <p className={style.body}>As a product designer, web designer and developer, I bring a unique combination of creativity
@@ -55,7 +55,7 @@ export const AboutSectio = () => {
                             <Image2 className={style.imag2} />
                         </div>
 
-                        <div>
+                        <div className={style.socialsection}>
                             <SocialSection />
                         </div>
                     </div>

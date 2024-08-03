@@ -6,6 +6,8 @@ import { OfferSection } from "../../app/component/Offer";
 import { ToolSection } from "../../app/component/Tools";
 import { SelectedWorkSection } from "../../app/component/SelectedWork";
 import { Footer } from "../../app/component/Footer";
+import { ReviewSection } from "../../app/component/Testimonial";
+import { SummarySection } from "../../app/component/Summary";
 
 export const HomePage = () => {
     return (
@@ -16,6 +18,8 @@ export const HomePage = () => {
             <OfferSection />
             <ToolSection />
             <SelectedWorkSection />
+            <ReviewSection />
+            <SummarySection />
             <Footer />
         </div>
     )

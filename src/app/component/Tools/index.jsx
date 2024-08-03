@@ -5,6 +5,7 @@ import { CgFramer } from "react-icons/cg";
 import { SiCanva } from "react-icons/si";
 import { SiVisualstudiocode } from "react-icons/si";
 import { SiGoogleforms } from "react-icons/si";
+import { FaWordpressSimple } from "react-icons/fa";
 
 export const ToolSection = () => {
     return (
@@ -31,6 +32,10 @@ export const ToolSection = () => {
                 <div className={style.formbox}>
                     <SiGoogleforms className={style.form} />
                     <h3>Google Form</h3>
+                </div>
+                <div className={style.figmabox}>
+                    <FaWordpressSimple className={style.figma} />
+                    <h3>WordPress</h3>
                 </div>
             </div>
         </div>
