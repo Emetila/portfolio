@@ -19,15 +19,15 @@ export const PortfolioBody = () => {
             <div>
                 <div className={style.works} key={Works.id}>
                     {Works.map((Works) => (
-                        <div className={style.workbox}>
+                        <div className={style.workbox} >
                             <div>
                                 <img className={style.worksimages} src={Works.Image} alt={Works.Image} />
-
+                               
                             </div>
                             <div className={style.wrap}>
                                 <div className={style.name}>
-                                    <h5 className={style.title}>{Works.title}</h5>
-                                    <h5 className={style.description}>{Works.description}</h5>
+                                    <h5 className={style.title}> <a href={Works.link} target="_blank" rel="noopener noreferrer">{Works.title}</a></h5>
+                                    <h5 className={style.description}><a href={Works.link} target="_blank" rel="noopener noreferrer">{Works.description}</a></h5>
                                 </div>
                             </div>
                         </div>

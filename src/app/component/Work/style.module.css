@@ -54,13 +54,13 @@
     align-items: center;
 }
 
-.title, .description {
+.title a, .description a {
     font-family: "Merriweather", sans-serif;
     font-size: 18px;
     color: #DAC5A7;
 }
 
-.description {
+.description a {
     font-size: 14px;
 }
 
