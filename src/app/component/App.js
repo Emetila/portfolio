@@ -8,6 +8,9 @@ import { VotedeckPage } from '../../page/VoteDeck';
 import { ProjectonePage } from '../../page/Project/Project1';
 import { FamebirdsPage } from '../../page/Project/Famebird';
 import { SjfashionPage } from '../../page/Project/SjFashion';
+import { MalichaPage } from '../../page/Project/Malicha';
+import { BuywitheasePage } from '../../page/Project/Buywithease';
+import { GocipePage } from '../../page/Project/Gocipe';
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
           <Route path="/project-two" element={<FamebirdsPage />} />
           <Route path="/votedeck" element={<ProjectonePage />} />
           <Route path="/project-three" element={<SjfashionPage />} />
+          <Route path="/project-four" element={<MalichaPage />} />
+          <Route path="/project-five" element={<BuywitheasePage />} />
+          <Route path="/project-six" element={<GocipePage />} />
           </Routes>
           </BrowserRouter>
   );

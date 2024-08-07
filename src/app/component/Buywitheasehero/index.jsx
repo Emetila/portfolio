@@ -3,13 +3,13 @@ import style from './style.module.css';
 import { CustomButton } from "../Button";
 import { FaArrowDown } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
-import { ReactComponent as Image } from '../../asset/Images/malicha.svg';
+import { ReactComponent as Image } from '../../asset/Images/buywihease.svg';
 import { FaArrowLeftLong } from "react-icons/fa6";
 
-export const HeroMalicha = () => {
+export const HeroBuywithease = () => {
     const navigate = useNavigate();
     const goToDetails = () => {
-        navigate('/malicha');
+        navigate('/buy-with-ease');
     };
     const goBack = () => {
         navigate('/portfolio');
@@ -24,24 +24,24 @@ export const HeroMalicha = () => {
             </div>
             <div className={style.body}>
                 <div className={style.titlebox}>
-                    <h1>Malicha</h1>
-                    <p>MALICHA is the leading light sent to birth Visionary African Authors across the globe, 
-                        that helps ‘midwife’ you from conception through gestation and delivery, to become an 
-                        author. It is also a platform that sells books and offer courses to train others too.
+                    <h1>Buy With Ease</h1>
+                    <p>Buy WIth Ease is an online store for small medium enterprise, focusing on user-friendly 
+                        interfaces, efficient product management, and seamless checkout processes to help small 
+                        medium enterprises (SMEs) reach a larger audience.
                     </p>
                 </div>
                 <div className={style.contentbox}>
                     <div className={style.content}>
                         <h2>Client</h2>
-                        <p>Lilian Akwunwa</p>
+                        <p>Buy With Ease</p>
                     </div>
                     <div>
                         <h2>Timeline</h2>
-                        <p>1 year +</p>
+                        <p>2 Months</p>
                     </div>
                     <div>
-                        <h2>Tool</h2>
-                        <p>Figma</p>
+                        <h2>Service</h2>
+                        <p>Frontend Developer</p>
                     </div>
                 </div>
 
